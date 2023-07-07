@@ -71,6 +71,35 @@ ere */
 
 .inside-article {
   padding-top: 1vh !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .wp-block-table {
+    width: 100%;
+  }
+  .wp-block-table thead {
+    display: none;
+  }
+  .wp-block-table tr {
+    margin-bottom: 10px;
+    display: block;
+    border-bottom: 2px solid #ddd;
+  }
+  .wp-block-table td {
+    display: block;
+    text-align: right;
+    font-size: 13px;
+    border-bottom: 1px dotted #ccc;
+  }
+  .wp-block-table td:last-child {
+    border-bottom: 0;
+  }
+  .wp-block-table td:before {
+    content: attr(data-label);
+    float: left;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
 }</style>
 		</head>
 
@@ -105,7 +134,7 @@ ere */
 			
 		<div class="entry-content" itemprop="text">
 			
-<figure class="wp-block-table"><table><tbody>
+<figure class="wp-block-table is-style-regular"><table><tbody>
 <tr>
 <td><img decoding="async" src="/wp-content/uploads/2023/07/culinary.png" alt="Herbs used for cooking"></td>
 <td>Culinary Herbs</td>
@@ -146,7 +175,9 @@ ere */
 <p>So, you&#8217;ve got all these amazing herbs, you are probably wondering how you can keep them fresh. We&#8217;re gonna share all our secret hacks for drying, preserving, and storing herbs, so they keep their kick for ages. Say goodbye to sad, tasteless herbs and hello to fresh flavor anytime!</p>
 <h2>Organic Herb Gardening</h2>
 <p>Last but not least, we&#8217;re all about that organic herb gardening life. It&#8217;s good for us and the Earth, right? We’ll chat about how to grow herbs the green way, like how to take care of the soil and how to keep pests away without any nasty chemicals.</p>
-<p>So come and join us as we dig into the fun world of herbs, learn a ton, and obviously, have a total blast! Welcome to our squad!</p>		</div>
+<p>So come and join us as we dig into the fun world of herbs, learn a ton, and obviously, have a total blast! Welcome to our squad!</p>
+
+		</div>
 
 			</div>
 </article>
